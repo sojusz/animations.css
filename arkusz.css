@@ -1,0 +1,33 @@
+body{
+	background-color:#FFFDD0;
+}
+#d1{
+	margin:auto;
+	margin-top:25px;
+	height:200px;
+	width:1200px;
+}
+img{
+	height:180px;
+	width:200px;
+	margin-left:20px;
+	border: 2px solid black;
+}
+#d2, #d3, #d4, #d5, #d6 {
+	transition:2.5s;
+}
+#d2:hover{
+	transform:translateX(229px) translateY(300px) scale(2);
+}
+#d3:hover{
+	transform:translateY(300px) scale(2);
+}
+#d4:hover{
+	transform:translateX(-229px) translateY(300px) scale(2);
+}
+#d5:hover{
+	transform:translateX(458px) translateY(300px) scale(2);
+}
+#d6:hover{
+	transform:translateX(-458px) translateY(300px) scale(2);
+}
