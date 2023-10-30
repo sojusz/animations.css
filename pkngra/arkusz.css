@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    overflow: hidden;
+}
+
+.score{
+    width: 100vw;
+    height: 10vh;
+    margin: auto;
+    margin-top: 5vh;
+    color: blanchedalmond;
+    font-size: 2cm;
+    text-align: center;
+}
+
+.wynik{
+    display: flex;
+    gap: 10vw;
+    border: 2px blanchedalmond solid;
+    border-radius: 1.5cm;
+    width: 50vw;
+    height: 40vh;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.wybory{
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 30vh;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.wybor{
+    border: 2px blanchedalmond solid;
+    border-radius: 1.5cm;
+    transition: 0.5s;
+}
+
+.wybor:hover{
+    transform: scale(1.05);
+}
+
+#g{
+    position: absolute;
+    border: 2px blanchedalmond solid;
+    border-radius: 1.5cm;
+    width: 10vw;
+    height: 5vh;
+    color: blanchedalmond;
+    text-align: center;
+    line-height: 4.5vh;
+    top: 20vh;
+    right: 5vw;
+}
+
+#b{
+    position: absolute;
+    border: 2px blanchedalmond solid;
+    border-radius: 1.5cm;
+    width: 10vw;
+    height: 5vh;
+    color: blanchedalmond;
+    text-align: center;
+    line-height: 4.5vh;
+    top: 20vh;
+    left: 5vw;
+}
+
+#ciemnosc{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    line-height: 100vh;
+    font-size: 2cm;
+    z-index: 999;
+}

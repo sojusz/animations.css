@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="arkusz.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="ciemnosc" onclick="zniknij()">Gra sie do 9 kliknij gdziekolwiek zeby zagrac</div>
+    <div id="g">punkty gracza: </div>
+    <div id="b">punkty bota: </div>
+    <div id="score" class="score">kliknij kamien papier lub nozyce zeby zaczac</div>
+    <div class="wynik">
+        <img id="your"></img>
+        <img id="bot"></img>
+    </div>
+    <div class="wybory">
+        <img src="papier.png" id="wybor" class="wybor" onclick="gra(1)">
+        <img src="kamien.png" id="wybor" class="wybor" onclick="gra(2)">
+        <img src="nozyce.png" id="wybor" class="wybor" onclick="gra(3)">
+    </div>
+</body>
+</html>
